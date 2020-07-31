@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 6 Hands-On (SWD101)</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette" >
+        <link rel="stylesheet" 
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">imAJine</a>
+            </div>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="active">
+                        <a class="btn btn-primary" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Information</a>
+                    </li>
+                    <li>
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle btn btn-info">More About Me
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/aj.bernabeo">Facebook</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.instagram.com/imajine_4w/">Instagram</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://i.pinimg.com/736x/cb/40/72/cb407225f93f1238d1b3c39697b95788.jpg" class="btn btn-danger">A Pic of Baymax</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <form class="navbar-form" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search..." name="srch-term" id="srch-term">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <form class="form-horizontal col-md-4">
+            <div class="form-group">
+                <label for="Email" class="control-label col-xs-2">Email</label>
+                <div class="col-xs-10">
+                    <input type="email" class="form-control" id="Email" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Password" class="control-label col-xs-2">Password</label>
+                <div class="col-xs-10">
+                    <input type="password" class="form-control" id="Password" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-offset-2 col-xs-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-offset-2 col-xs-10">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </form>
+
+        <table class="table table-bordered table-hover col-md-offset-4 col-md-4">
+            <thead>
+                <tr class="active">
+                    <th>Camera</th>
+                    <th>Lens Size</th>
+                    <th>Lens Function</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="info">
+                    <td>Sony a7iii</td>
+                    <td>50mm</td>
+                    <td>Portrait</td>
+                </tr>
+                <tr class="danger">
+                    <td>Canon 5DSR</td>
+                    <td>110mm</td>
+                    <td>telephoto</td>
+                </tr>
+                <tr class="warning">
+                    <td>Nikon Z7</td>
+                    <td>24mm</td>
+                    <td>wide</td>
+                </tr>
+                <tr class="success">
+                    <td>Blackmagic Pocket</td>
+                    <td>24-70mm</td>
+                    <td>cinema zoom</td>
+                </tr>
+            </tbody>
+        </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+            crossorigin="anonymous">
+    </script>
+    </body>
+</html>

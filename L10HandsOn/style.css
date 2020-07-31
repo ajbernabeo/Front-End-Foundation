@@ -1,0 +1,32 @@
+.intro {
+    background-image: linear-gradient(teal, white);
+}
+
+.header {
+    font-size: 130px;
+}
+
+.me {
+    font-family: 'Yellowtail', cursive;
+}
+
+.job {
+    font-size: 40px;
+    color: maroon;
+}
+
+.picOfMe {
+    width: 80%;
+    height: auto;
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
+}
+
+.contact {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
